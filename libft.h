@@ -19,6 +19,10 @@ void	*ft_memcpy(void *dest, void const *src, size_t n);
 void	*ft_memccpy(void *dest, void const *src, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
 
+char	*ft_strdup(const char *s);
+char	*ft_strcpy(char *dest, const char *src);
+
 int	ft_strlen(char *s);
+int	ft_atoi(char *s);
 
 #endif
