@@ -52,7 +52,14 @@ int	main(void)
                 ft_putchar_fd('\n', 1);
                 i++;
         }*/
-	ft_putstr(dest);
+	ft_strcat(dest, " MYT Adamdir.");
+	i = 0;
+	while (dest[i])
+	{
+		dest[i] = ft_toupper(dest[i]);
+		i++;
+	}
+	ft_putstr(ft_strchr(dest, '1'));
 	ft_putchar('\n');
 	return (0);
 }
