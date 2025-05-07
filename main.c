@@ -29,7 +29,7 @@ int	main(void)
 	
 	dest = (char *)ft_memalloc(30);
 	//ft_bzero(dest, 30);
-	arr = ft_strdup("Ates bocegi 5512.");
+	arr = ft_strdup("Ates 12 bocegi 5512.");
 	ft_strcpy(dest, arr);
 
 
@@ -60,6 +60,10 @@ int	main(void)
 		i++;
 	}
 	ft_putstr(ft_strchr(dest, '1'));
+	ft_putchar('\n');
+	ft_putstr(ft_strnstr("SepetYerim", "tYe", 7));
+	ft_putchar('\n');
+	ft_putnbr(ft_strncmp("Amd", "Amd_Ryzen", 4));
 	ft_putchar('\n');
 	return (0);
 }
