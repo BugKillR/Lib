@@ -67,6 +67,8 @@ int	main(void)
 	ft_strdel(&dest);
 	if (dest == NULL)
 		ft_putstr("Null\n");
+	//ft_putnbr(ft_strnequ("All", "Alla", -1));
+	//ft_putchar('\n');
 	//ft_putstr(ft_strnstr("SepetYerim", "tYe", 7));
 	//ft_putchar('\n');
 	//ft_putnbr(ft_strncmp("Amd", "Amd_Ryzen", 4));
