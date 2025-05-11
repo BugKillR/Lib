@@ -25,6 +25,8 @@ int	main(void)
 	char	*arr;
 	char	*dest;
 	char	*swap;
+	char	*j1;
+	char	*j2;
 	int	i;
 	
 	dest = ft_strnew(30);
@@ -67,6 +69,10 @@ int	main(void)
 	ft_strdel(&dest);
 	if (dest == NULL)
 		ft_putstr("Null\n");
+	j1 = "Mehmet ";
+	j2 = "Yagiz";
+	ft_putstr(ft_strjoin(j1, j2));
+	ft_putchar('\n');
 	//ft_putnbr(ft_strnequ("All", "Alla", -1));
 	//ft_putchar('\n');
 	//ft_putstr(ft_strnstr("SepetYerim", "tYe", 7));
